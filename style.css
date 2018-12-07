@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: -webkit-linear-gradient(darkgray, lightgray);
+}
+.container {
+  margin: 2% 7%;
+}
+.flex {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 1% 1%;
+}
+.kviz {
+  /*background: -webkit-linear-gradient(#BEEB9F, #FFFF9D);*/
+  background: gray;
+  color: white;
+  margin-bottom: 100px;
+}
+input {
+  color: black;
+  padding: 3px;
+}
+button {
+  padding: 1%;
+  color: black;
+  background: -webkit-linear-gradient(lightgray, darkgray);
+
+}
+button:hover {
+  color: white;
+  background: -webkit-linear-gradient(darkgreen, lightgreen);
+  cursor: pointer;
+}
+  @media (min-width: 748px) {
+.kviz {
+  border: 2px solid black;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.pitanje {
+  /*border: 2px solid red;*/
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+input {
+  width: 290px;
+}
+.uputstvo {
+  width: 40%;
+  padding: 2%;
+  border: 2px solid green;
+}
+.kviz h1, button {
+  margin-left: 1%;
+}
+}
